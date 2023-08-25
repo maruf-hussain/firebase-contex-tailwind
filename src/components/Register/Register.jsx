@@ -10,9 +10,9 @@ const Register = () => {
         event.preventDefault();
         const form = event.target;
         const email = form.email.value;
-        const name = form.name.value;
+        // const name = form.name.value;
         const password = form.password.value;
-        console.log(name, email, password);
+        console.log( email, password);
 
         createUser(email, password)
             .then(result => {
