@@ -22,14 +22,15 @@ const Header = () => {
       <Link to="/" >Home</Link>
       <Link to="/login" >Login</Link>
       <Link to="/register" >Register</Link>
-      <Link to="/" >Auth Master</Link>
+      <Link to="/orders" >Orders</Link>
 
       {
         user ? <>
           <span>{user.email}</span>
           <button onClick={handleSignOut}>Sign Out</button> </>
           :
-          <Link to="/login">Login</Link>
+         
+          <Link to="/login"> <button>Login</button></Link>
       }
 
     </nav>
