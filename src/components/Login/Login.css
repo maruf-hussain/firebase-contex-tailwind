@@ -1,0 +1,21 @@
+.form-container{
+   
+    
+   
+}
+.email-container{
+    margin-top: 10px;
+    padding: 5px;  
+}
+.password-container{
+    margin-top: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.container{
+    background-color: aquamarine;
+    text-align: center;
+    margin-top: 20px;
+   
+    padding: 10px;
+}

@@ -1,0 +1,12 @@
+nav{
+    background-color: rgb(16, 53, 68);
+    padding: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: aliceblue;
+    font-size: larger;
+}
+    
